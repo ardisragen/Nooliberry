@@ -191,8 +191,7 @@ init_lowlevel(void)
   #if ANNOUNCE_BOOT
     printf_P(PSTR("Routing Enabled\n"));
   #endif /* ANNOUNCE_BOOT */
-  rime_init(rime_udp_init(NULL));
-  uip_router_register(&rimeroute);
+  
 #endif /* UIP_CONF_ROUTER */
   #if UIP_CONF_IPV6
     process_start(&tcpip_process, NULL);

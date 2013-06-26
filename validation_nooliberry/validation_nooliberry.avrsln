@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "validation_nooliberry", "validation_nooliberry.avrgccproj", "{A3E409F1-20F7-42E2-A9D3-6B73650669A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E409F1-20F7-42E2-A9D3-6B73650669A8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A3E409F1-20F7-42E2-A9D3-6B73650669A8}.Debug|AVR.Build.0 = Debug|AVR
+		{A3E409F1-20F7-42E2-A9D3-6B73650669A8}.Release|AVR.ActiveCfg = Release|AVR
+		{A3E409F1-20F7-42E2-A9D3-6B73650669A8}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
