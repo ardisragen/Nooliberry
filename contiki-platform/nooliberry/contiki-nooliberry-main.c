@@ -111,6 +111,9 @@ init_lowlevel(void)
   uint8_t i;
   unsigned char ds2411_id[6];
   
+  watchdog_init();
+  watchdog_start();
+
   /* Second rs232 port for debugging */
   rs232_init(RS232_PORT_1, USART_BAUD_38400,
              USART_PARITY_NONE | USART_STOP_BITS_1 | USART_DATA_BITS_8);
@@ -224,6 +227,7 @@ main(void)
   /* Main scheduler loop */
   while(1) {
     process_run();
+    watchdog_periodic();
   }
 
   return 0;
